@@ -19,8 +19,9 @@ public class Client extends Personne{
 	
 	
 	public Client() {
-		// TODO Auto-generated constructor stub
+
 	}
+
 
 
 	public String getPrenom() {
@@ -54,8 +55,6 @@ public class Client extends Personne{
 	public void setBadge(int Badge) {
 		this.Badge=Badge;
 	}
-
-
 	public void clientID(int clientID1) {
 		// TODO Auto-generated method stub
 		
@@ -65,7 +64,10 @@ public class Client extends Personne{
 	public void getId(int clientID1) {
 		// TODO Auto-generated method stub
 		
+		
 	}
+	
+	
 	
 		
 }

@@ -277,6 +277,13 @@ public class Main {
 					int ClientBadge = scanner.nextInt();
 					client.setBadge(ClientBadge);
 					
+					//vérifier la fidélité des clients
+					if(client.getBadge() >= 3) {
+						System.out.println("le client est devenu fidèle");
+					}else {
+						System.out.println("Nouveau client");
+					}
+					
 					
 					listOfClient.add("--------------------- Client list -------------------" + "\n" +
 							"Client ID: " + client.getId() + "\n" +
@@ -322,6 +329,8 @@ public class Main {
 					int clientBadge1 = scanner.nextInt();
 					client1.setBadge(clientBadge1);
 					
+					
+					
 					listOfClient.set(clientNumber,
 					"--------------------- client list -------------------" + "\n" +
 					
@@ -354,6 +363,11 @@ public class Main {
 			
 			scanner.close();
 		}
+
+	private static int setBadge() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 	private static int getId() {
 		// TODO Auto-generated method stub
